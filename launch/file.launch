@@ -1,10 +1,10 @@
 <launch>
 
-  <node pkg="hw1_dv" name="listener" type="listener.py" />
+  <node pkg="hw1_dv" name="listener" type="listener.py"  output ="screen"/>
 
-  <node pkg="hw1_dv" name="talker1" type="talker1.py" />
+  <node pkg="hw1_dv" name="talker1" type="talker1.py" output ="screen" />
 
-  <node pkg="hw1_dv" name="talker2" type="talker2.py" />
+  <node pkg="hw1_dv" name="talker2" type="talker2.py" output ="screen" />
     
   
 

@@ -2,15 +2,15 @@
 
 First DV project
 
-Make sure that a roscore is up and running: 
-$ roscore
+## To execute code run:
 
-# In your catkin workspace
-$ cd ~/catkin_ws
-$ source ./devel/setup.bash
 
-# Open a new terminal for each command and run it:
+\begin{document}
+\begin{minted}{bash}
+    # In your catkin workspace
+    $ cd ~/catkin_ws
+    $ source ./devel/setup.bash
+    $ roslaunch hw1_dv file.launch
 
-$ rosrun hw1_dv listener.py
-$ rosrun hw1_dv talker1.py
-$ rosrun hw1_dv talker2.py
+\end{minted}
+\end{document}
